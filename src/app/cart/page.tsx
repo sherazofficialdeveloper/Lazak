@@ -63,7 +63,7 @@ const CartPage = () => {
                         className="w-8 h-8" 
                         onClick={() => updateQuantity(item.id, -1, item.selectedVariant?.id)}
                       >
-                        <Minus className="w-4 h-4" />
+                        <Minus className="w-4 h-4" />-
                       </Button>
                       <span className="font-bold w-6 text-center">{item.quantity}</span>
                       <Button 
@@ -71,7 +71,7 @@ const CartPage = () => {
                         className="w-8 h-8" 
                         onClick={() => updateQuantity(item.id, 1, item.selectedVariant?.id)}
                       >
-                        <Plus className="w-4 h-4" />
+                        <Plus className="w-4 h-4" />+
                       </Button>
                     </div>
                     <Button 

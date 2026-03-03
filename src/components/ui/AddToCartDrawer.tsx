@@ -124,7 +124,7 @@ export const AddToCartDrawer = () => {
                       className="w-10 h-10 rounded-none" 
                       onClick={() => setQuantity(Math.max(1, quantity - 1))}
                     >
-                      <Minus className="w-4 h-4" />
+                      <Minus className="w-4 h-4" />-
                     </Button>
                     <span className="font-bold text-lg w-8 text-center">{quantity}</span>
                     <Button 
@@ -132,7 +132,7 @@ export const AddToCartDrawer = () => {
                       className="w-10 h-10 rounded-none" 
                       onClick={() => setQuantity(quantity + 1)}
                     >
-                      <Plus className="w-4 h-4" />
+                      <Plus className="w-4 h-4" />+
                     </Button>
                   </div>
                   <div className="text-sm">
