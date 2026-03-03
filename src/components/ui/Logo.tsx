@@ -34,24 +34,9 @@ export const Logo: React.FC<LogoProps> = ({
   const currentSize = sizeClasses[size];
 
   return (
-    <Link to="/" className={cn("flex items-center gap-2 group shrink-0", className)}>
-      <div className={cn(
-        "bg-primary flex items-center justify-center group-hover:rotate-12 transition-transform shadow-soft",
-        currentSize.box
-      )}>
-        <span className="text-white font-bold">L</span>
-      </div>
-      
-      {showText && (
+   
         <div className="flex flex-col leading-none">
-          <span className={cn("font-black tracking-tighter text-secondary", currentSize.text)}>
-            LAZAK
-          </span>
-          <span className={cn("font-bold tracking-[0.2em] text-primary uppercase", currentSize.subtext)}>
-            Essentials with Care
-          </span>
+        <img src="LA-Logo.png" alt="" className="w-44 h-32"/>
         </div>
-      )}
-    </Link>
   );
 };

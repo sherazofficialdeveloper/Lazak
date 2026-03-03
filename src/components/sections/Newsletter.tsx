@@ -5,7 +5,7 @@ import { Mail } from 'lucide-react';
 
 export const Newsletter = () => {
   return (
-    <section className="section-padding bg-primary relative overflow-hidden">
+    <section className="py-10 bg-primary relative overflow-hidden">
       {/* Decorative Circles */}
       <div className="absolute -top-24 -left-24 w-64 h-64 bg-white/5 rounded-full" />
       <div className="absolute -bottom-24 -right-24 w-96 h-96 bg-white/5 rounded-full" />
@@ -40,7 +40,7 @@ export const Newsletter = () => {
                 placeholder="Enter your email address" 
                 className="bg-background border-none h-14 px-6 rounded-none"
               />
-              <Button size="lg" className="h-14 px-10 font-black uppercase tracking-widest text-xs rounded-none">
+              <Button size="lg" className="h-14 px-10 uppercase tracking-widest text-xs rounded-none">
                 Subscribe
               </Button>
             </form>

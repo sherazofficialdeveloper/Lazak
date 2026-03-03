@@ -31,10 +31,10 @@ export const WhyChooseUs = () => {
   ];
 
   return (
-    <section className="section-padding bg-background">
+    <section className="pt-10 bg-background">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center max-w-2xl mx-auto mb-16 space-y-4">
-          <h2 className="text-3xl md:text-4xl font-bold">The LAZAK Advantage</h2>
+          <h2 className="text-3xl md:text-4xl">The LAZAK Advantage</h2>
           <p className="text-text-muted">
             We provide premium BBQ and kitchen gear backed by world-class service and USA-based support.
           </p>

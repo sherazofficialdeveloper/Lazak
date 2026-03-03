@@ -33,10 +33,10 @@ export const Navbar = () => {
 
   return (
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-      isScrolled ? 'bg-surface/90 backdrop-blur-xl shadow-medium py-3' : 'bg-transparent py-6'
+      isScrolled ? 'bg-surface/90 backdrop-blur-xl shadow-medium' : 'bg-transparent'
     }`}>
       <div className="container mx-auto px-4 md:px-6">
-        <div className="flex items-center justify-between gap-4">
+        <div className="flex items-center justify-between">
           {/* Logo */}
           <Logo />
 
@@ -50,9 +50,7 @@ export const Navbar = () => {
                 className="w-full pl-12 pr-4 py-3 bg-muted/5 border border-muted/10 rounded-full focus:outline-none focus:ring-4 focus:ring-primary/10 focus:bg-white focus:border-primary transition-all text-sm font-medium"
               />
               <div className="absolute right-3 top-1/2 -translate-y-1/2 flex items-center gap-1">
-                <kbd className="hidden sm:inline-flex h-5 select-none items-center gap-1 rounded border border-muted/20 bg-muted/5 px-1.5 font-mono text-[10px] font-medium text-muted opacity-100">
-                  <span className="text-xs">⌘</span>K
-                </kbd>
+                
               </div>
             </div>
           </div>
@@ -122,13 +120,13 @@ export const Navbar = () => {
             exit={{ opacity: 0, height: 0 }}
             className="md:hidden bg-surface border-t border-muted/10 overflow-hidden"
           >
-            <div className="container mx-auto px-4 py-6 space-y-4">
+            <div className="container mx-auto px-4">
               <div className="relative w-full">
                 <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-muted w-4 h-4" />
                 <input 
                   type="text" 
                   placeholder="Search products..." 
-                  className="w-full pl-10 pr-4 py-2 bg-muted/5 border border-muted/10 rounded-md focus:outline-none"
+                  className="w-full pl-10 pr-4 bg-muted/5 border border-muted/10 rounded-md focus:outline-none"
                 />
               </div>
               <div className="flex flex-col gap-4">
@@ -136,7 +134,7 @@ export const Navbar = () => {
                   <Link 
                     key={link.path} 
                     to={link.path}
-                    className="text-lg font-medium py-2 border-b border-muted/5"
+                    className="text-lg font-medium border-b border-muted/5"
                   >
                     {link.name}
                   </Link>
@@ -150,8 +148,8 @@ export const Navbar = () => {
                   <ShoppingCart className="w-5 h-5" /> Cart ({cartCount})
                 </Link>
               </div>
-              <Link to="/login" className="block pt-4">
-                <Button className="w-full">Sign In</Button>
+              <Link to="/login" className="block py-3">
+                <Button className="w-full py-3">Sign In</Button>
               </Link>
             </div>
           </motion.div>

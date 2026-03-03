@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 export const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center pt-20 overflow-hidden bg-background">
+    <section className="relative min-h-screen flex items-center overflow-hidden bg-background">
       {/* Background Elements */}
       <div className="absolute top-0 right-0 w-1/2 h-full bg-primary/5 -skew-x-12 translate-x-1/4 z-0" />
       <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-secondary/10 rounded-full blur-3xl z-0" />
@@ -19,7 +19,7 @@ export const Hero = () => {
             transition={{ duration: 0.8 }}
             className="space-y-8"
           >
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 rounded-full text-primary text-sm font-semibold">
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 rounded-full text-primary text-sm">
               <span className="relative flex h-2 w-2">
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
@@ -70,7 +70,7 @@ export const Hero = () => {
           >
             <div className="relative z-10 rounded-3xl overflow-hidden shadow-medium border-8 border-white">
               <img 
-                src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&q=80&w=1200" 
+                src="/pic2.jpeg" 
                 alt="Premium Kitchen Grill" 
                 className="w-full h-auto object-cover"
                 referrerPolicy="no-referrer"

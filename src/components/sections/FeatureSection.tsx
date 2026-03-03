@@ -23,7 +23,7 @@ export const FeatureSection = () => {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent flex flex-col justify-end p-6 md:p-10">
               <span className="text-accent font-bold uppercase tracking-[0.3em] text-[10px] mb-2">Master the Flame</span>
-              <h2 className="text-3xl md:text-5xl font-black text-white mb-3 uppercase tracking-tighter leading-none">
+              <h2 className="text-3xl md:text-5xl text-white mb-3 uppercase tracking-tighter leading-none">
                 Premium BBQ Packs
               </h2>
               <p className="text-white/70 max-w-md mb-6 hidden md:block text-sm font-medium">
@@ -49,7 +49,7 @@ export const FeatureSection = () => {
               referrerPolicy="no-referrer"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent flex flex-col justify-end p-6 md:p-8">
-              <h3 className="text-2xl md:text-3xl font-black text-white mb-2 uppercase tracking-tighter">Prime Steaks</h3>
+              <h3 className="text-2xl md:text-3xl text-white mb-2 uppercase tracking-tighter">Prime Steaks</h3>
               <Link to="/products" className="text-accent font-bold hover:text-white transition-colors uppercase tracking-widest text-[10px]">
                 Shop Cuts
               </Link>
@@ -65,13 +65,13 @@ export const FeatureSection = () => {
             className="md:col-span-4 relative group overflow-hidden h-[300px] md:h-[450px]"
           >
             <img 
-              src="https://images.unsplash.com/photo-1608475249441-cdd4f3040ce6?auto=format&fit=crop&q=80&w=800" 
+              src="https://media.istockphoto.com/id/2245140782/photo/slicing-iberian-ham-close-up-with-knife.webp?a=1&b=1&s=612x612&w=0&k=20&c=xycAv1nU6gqXeAqPMHQLlgUFwTe9d7M7-Tq3gPSAlp4=" 
               alt="Artisan Sausages" 
               className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
               referrerPolicy="no-referrer"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent flex flex-col justify-end p-6 md:p-8">
-              <h3 className="text-2xl md:text-3xl font-black text-white mb-2 uppercase tracking-tighter">Artisan Sausages</h3>
+              <h3 className="text-2xl md:text-3xl text-white mb-2 uppercase tracking-tighter">Artisan Sausages</h3>
               <Link to="/products" className="text-accent font-bold hover:text-white transition-colors uppercase tracking-widest text-[10px]">
                 View Selection
               </Link>
@@ -85,14 +85,14 @@ export const FeatureSection = () => {
             transition={{ delay: 0.3 }}
             className="md:col-span-8 bg-accent flex flex-col justify-center p-8 md:p-16 h-[300px] md:h-[450px]"
           >
-            <h2 className="text-4xl md:text-7xl font-black text-secondary mb-4 uppercase tracking-tighter leading-[0.9]">
+            <h2 className="text-4xl md:text-7xl text-secondary mb-4 uppercase tracking-tighter leading-[0.9]">
               Join the <br /> Pitmaster Club
             </h2>
             <p className="text-secondary/80 max-w-lg mb-8 text-base md:text-lg font-bold leading-tight">
               Get exclusive recipes, early access to limited meat drops, and grilling tips from the pros.
             </p>
             <Link to="/signup">
-              <button className="bg-secondary text-white px-10 py-4 font-black uppercase tracking-widest text-xs hover:bg-secondary/80 transition-all active:scale-95">
+              <button className="bg-secondary text-white px-10 py-4 uppercase tracking-widest text-xs hover:bg-secondary/80 transition-all active:scale-95">
                 Join Now
               </button>
             </Link>
