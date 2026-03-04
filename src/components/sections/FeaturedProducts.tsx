@@ -14,10 +14,10 @@ export const FeaturedProducts = () => {
       <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-primary via-secondary to-accent opacity-20" />
       
       <div className="container mx-auto px-4 md:px-6">
-        <div className="flex flex-col md:flex-row md:items-end justify-center gap-8 mb-12">
+        <div className="flex flex-col md:flex-row md:items-end justify-around gap-8 mb-12">
           <div className="space-y-4">
             <Badge variant="primary">Curated Selection</Badge>
-            <h2 className="text-3xl md:text-5xl font-bold tracking-tight">Featured Products</h2>
+            <h2 className="text-3xl md:text-5xl font-bold tracking-tight">Our Products</h2>
             <p className="text-text-muted max-w-lg text-lg">
               Our hand-picked selection of the most durable and professional BBQ and kitchen gear.
             </p>

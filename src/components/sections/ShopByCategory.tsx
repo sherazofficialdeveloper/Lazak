@@ -13,7 +13,7 @@ export const ShopByCategory = () => {
 
       <div className="container mx-auto px-4 md:px-6 relative z-10">
         <div className="flex flex-col md:flex-row md:items-end justify-center gap-8 mb-16">
-          <div className="space-y-4">
+          <div className="space-y-4 text-center">
             <div className="inline-flex items-center gap-2 px-3 py-1 bg-primary/10 rounded-full text-primary text-[10px] uppercase tracking-widest">
               Browse Collections
             </div>

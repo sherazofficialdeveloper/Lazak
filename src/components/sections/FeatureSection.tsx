@@ -2,11 +2,19 @@ import React from 'react';
 import { motion } from 'motion/react';
 import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
+import { Badge } from '../ui/Badge';
 
 export const FeatureSection = () => {
   return (
     <section className="bg-background py-2">
       <div className="container mx-auto px-2 md:px-4">
+         <div className="space-y-4 pb-10 pt-5 flex flex-col justify-center items-center text-center">
+                    <Badge variant="primary">Featured Products</Badge>
+                    <h2 className="text-3xl md:text-5xl font-bold tracking-tight">Top Picks for Professionals</h2>
+                    <p className="text-text-muted max-w-lg text-lg">
+                     Discover our best-selling and most reliable BBQ and kitchen gear, designed for performance, durability, and everyday excellence.
+                    </p>
+                  </div>
         <div className="grid grid-cols-1 md:grid-cols-12 gap-2">
           {/* Row 1: Large Left, Small Right */}
           <motion.div 
@@ -16,7 +24,7 @@ export const FeatureSection = () => {
             className="md:col-span-8 relative group overflow-hidden h-[300px] md:h-[450px]"
           >
             <img 
-              src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&q=80&w=1200" 
+              src="https://www.swissfarm.co.uk/wp-content/uploads/2022/05/Swiss-Farm-BBQ-Meat-Brochure-2022.jpg" 
               alt="Premium BBQ Packs" 
               className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
               referrerPolicy="no-referrer"
@@ -83,7 +91,7 @@ export const FeatureSection = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.3 }}
-            className="md:col-span-8 bg-accent flex flex-col justify-center p-8 md:p-16 h-[300px] md:h-[450px]"
+            className="md:col-span-8 bg-primary flex flex-col justify-center p-8 md:p-16 h-[300px] md:h-[450px]"
           >
             <h2 className="text-4xl md:text-7xl text-secondary mb-4 uppercase tracking-tighter leading-[0.9]">
               Join the <br /> Pitmaster Club

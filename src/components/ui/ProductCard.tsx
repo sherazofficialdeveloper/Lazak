@@ -79,7 +79,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
           <Button 
             size="sm" 
             variant="ghost"
-            className="text-primary hover:text-primary hover:bg-primary/5 font-bold p-0 h-auto rounded-none"
+            className="text-primary hover:text-white hover:bg-primary/90 font-bold h-auto rounded-none"
             onClick={() => openSelectionDrawer(product)}
           >
             Add to Cart
