@@ -7,15 +7,15 @@ import { Product, BlogArticle, Category } from '../types/product';
  */
 
 export const CATEGORIES: Category[] = [
-  { id: 'c1', slug: 'kitchen-tools', name: 'Kitchen Tools', icon: 'Utensils' },
-  { id: 'c2', slug: 'grill-accessories', name: 'Grill Accessories', icon: 'Settings' },
-  { id: 'c3', slug: 'indoor-outdoor', name: 'Indoor / Outdoor Use', icon: 'Home' },
-  { id: 'c4', slug: 'mid-range', name: 'Mid-Range', icon: 'Activity' },
-  { id: 'c5', slug: 'bbq-essentials', name: 'BBQ Essentials', icon: 'Flame' },
-  { id: 'c6', slug: 'meat-packaging', name: 'Meat Packaging', icon: 'Package' },
-  { id: 'c7', slug: 'party-size', name: 'Small Pack / Party Size', icon: 'Users' },
-  { id: 'c8', slug: 'budget-friendly', name: 'Budget Friendly', icon: 'DollarSign' },
-  { id: 'c9', slug: 'featured', name: 'Featured', icon: 'Star' },
+  { id: 'c1', slug: 'kitchen-tools', name: 'Kitchen Tools', icon: 'Utensils', image: '/pic5.jpeg' },
+  { id: 'c2', slug: 'grill-accessories', name: 'Grill Accessories', icon: 'Settings', image: '/pic2.jpeg' },
+  { id: 'c3', slug: 'indoor-outdoor', name: 'Indoor / Outdoor Use', icon: 'Home', image: '/pack.jpeg' },
+  { id: 'c4', slug: 'mid-range', name: 'Mid-Range', icon: 'Activity', image: '/pic5.jpeg' },
+  { id: 'c5', slug: 'bbq-essentials', name: 'BBQ Essentials', icon: 'Flame', image: '/pack.jpeg' },
+  { id: 'c6', slug: 'meat-packaging', name: 'Meat Packaging', icon: 'Package', image: '/pic2.jpeg' },
+  { id: 'c7', slug: 'party-size', name: 'Small Pack / Party Size', icon: 'Users', image: '/pack.jpeg' },
+  { id: 'c8', slug: 'budget-friendly', name: 'Budget Friendly', icon: 'DollarSign', image: '/pic5.jpeg' },
+  { id: 'c9', slug: 'featured', name: 'Featured', icon: 'Star', image: '/pic2.jpeg' },
 ];
 
 export const PRODUCTS: Product[] = [
@@ -72,7 +72,7 @@ export const PRODUCTS: Product[] = [
     title: 'Small Pack',
     price: 19.99,
     description: 'Budget-friendly small BBQ meat packaging bag. Perfect for small party packs.',
-    image: 'pack.jpeg',
+    image: '/pack.jpeg',
     rating: 4.6,
     reviews: 18,
     categories: ['bbq-essentials', 'meat-packaging', 'party-size', 'budget-friendly', 'featured'],
@@ -87,7 +87,7 @@ export const PRODUCTS: Product[] = [
     title: 'Standard Pack',
     price: 49.99,
     description: 'Regular size standard BBQ meat packaging bag. Durable and hygienic for all BBQ needs.',
-    image: 'pack.jpeg',
+    image: '/pic2.jpeg',
     rating: 4.9,
     reviews: 42,
     categories: ['bbq-essentials', 'meat-packaging', 'party-size', 'mid-range', 'featured'],
@@ -102,7 +102,7 @@ export const PRODUCTS: Product[] = [
     title: 'Large Pack',
     price: 69.99,
     description: 'Premium high-quality large BBQ meat packaging bag. Ideal for large BBQ parties and professional use.',
-    image: 'pack.jpeg',
+    image: '/pic5.jpeg',
     rating: 5.0,
     reviews: 25,
     categories: ['bbq-essentials', 'meat-packaging', 'party-size', 'mid-range', 'featured'],

@@ -25,6 +25,7 @@ export interface Category {
   slug: string;
   name: string;
   icon: string;
+  image?: string;
   description?: string;
 }
 

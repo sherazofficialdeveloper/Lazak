@@ -24,7 +24,7 @@ export const FeatureSection = () => {
             className="md:col-span-8 relative group overflow-hidden h-[300px] md:h-[450px]"
           >
             <img 
-              src="https://www.swissfarm.co.uk/wp-content/uploads/2022/05/Swiss-Farm-BBQ-Meat-Brochure-2022.jpg" 
+              src="/image.png" 
               alt="Premium BBQ Packs" 
               className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
               referrerPolicy="no-referrer"
@@ -51,7 +51,7 @@ export const FeatureSection = () => {
             className="md:col-span-4 relative group overflow-hidden h-[300px] md:h-[450px]"
           >
             <img 
-              src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&q=80&w=800" 
+              src="/pic.png" 
               alt="Prime Steaks" 
               className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
               referrerPolicy="no-referrer"
@@ -73,7 +73,7 @@ export const FeatureSection = () => {
             className="md:col-span-4 relative group overflow-hidden h-[300px] md:h-[450px]"
           >
             <img 
-              src="https://media.istockphoto.com/id/2245140782/photo/slicing-iberian-ham-close-up-with-knife.webp?a=1&b=1&s=612x612&w=0&k=20&c=xycAv1nU6gqXeAqPMHQLlgUFwTe9d7M7-Tq3gPSAlp4=" 
+              src="image copy.png" 
               alt="Artisan Sausages" 
               className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
               referrerPolicy="no-referrer"
