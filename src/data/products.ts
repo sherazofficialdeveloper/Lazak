@@ -87,7 +87,7 @@ export const PRODUCTS: Product[] = [
     title: 'Standard Pack',
     price: 49.99,
     description: 'Regular size standard BBQ meat packaging bag. Durable and hygienic for all BBQ needs.',
-    image: '/pic2.jpeg',
+    image: '/pack.jpeg',
     rating: 4.9,
     reviews: 42,
     categories: ['bbq-essentials', 'meat-packaging', 'party-size', 'mid-range', 'featured'],
@@ -102,7 +102,7 @@ export const PRODUCTS: Product[] = [
     title: 'Large Pack',
     price: 69.99,
     description: 'Premium high-quality large BBQ meat packaging bag. Ideal for large BBQ parties and professional use.',
-    image: '/pic5.jpeg',
+    image: '/pack.jpeg',
     rating: 5.0,
     reviews: 25,
     categories: ['bbq-essentials', 'meat-packaging', 'party-size', 'mid-range', 'featured'],
@@ -116,38 +116,38 @@ export const PRODUCTS: Product[] = [
 export const BLOG_ARTICLES: BlogArticle[] = [
   {
     id: 'b1',
-    slug: 'perfect-bbq-meat-packaging',
-    title: 'The Importance of Proper BBQ Meat Packaging',
-    excerpt: 'Learn why high-quality packaging is essential for maintaining meat freshness and flavor during transport.',
+    slug: 'premium-insulated-bbq-cooler-bag-benefits',
+    title: 'Why the Premium Insulated BBQ Cooler Bag Is Essential for Grillers',
+    excerpt: 'Discover how the Premium Insulated BBQ Cooler Bag keeps your meat fresh, temperature-controlled, and ready for serious grilling sessions.',
     date: 'March 2, 2026',
-    image: '/pic2.jpeg',
+    image: '/pack.jpeg',
     author: 'Chef Marcus'
   },
   {
     id: 'b2',
-    slug: 'grill-maintenance-tips',
-    title: '5 Tips for Maintaining Your Kitchen Grill',
-    excerpt: 'Keep your grill in top condition with these simple cleaning and maintenance hacks.',
+    slug: 'bbq-meat-transport-storage-guide',
+    title: 'How to Transport BBQ Meat Safely Like a Pro',
+    excerpt: 'Learn professional tips for transporting and storing meat using a Premium Insulated BBQ Cooler Bag to maintain freshness and flavor.',
     date: 'February 28, 2026',
-    image: '/pic5.jpeg',
+    image: '/pack.jpeg',
     author: 'Sarah Grillmaster'
   },
   {
     id: 'b3',
-    slug: 'choosing-the-right-chef-knife',
-    title: 'Choosing the Right Chef Knife for Your Kitchen',
-    excerpt: 'A comprehensive guide to selecting the perfect chef knife based on your cooking style and preferences.',
+    slug: 'roll-up-dish-drying-rack-kitchen-benefits',
+    title: 'Why Every Modern Kitchen Needs a Roll-Up Dish Drying Rack',
+    excerpt: 'The Roll-Up Dish Drying Rack (Over the Sink) saves space, improves kitchen organization, and offers heat-resistant durability for everyday use.',
     date: 'February 25, 2026',
-    image: '/pack.jpeg',
+    image: '/pic2.jpeg',
     author: 'Chef Marcus'
   },
   {
     id: 'b4',
-    slug: 'outdoor-grilling-safety',
-    title: 'Essential Outdoor Grilling Safety Tips',
-    excerpt: 'Stay safe while grilling outdoors with these essential tips for fire prevention and food safety.',
+    slug: 'over-the-sink-drying-rack-space-saving',
+    title: 'Maximize Counter Space with a Roll-Up Dish Drying Rack',
+    excerpt: 'Upgrade your kitchen with a Premium Roll-Up Dish Drying Rack – a heat-resistant, foldable solution designed for modern homes.',
     date: 'February 20, 2026',
-    image: '/pack.jpeg',
+    image: '/pic5.jpeg',
     author: 'Sarah Grillmaster'
   }
 ];
